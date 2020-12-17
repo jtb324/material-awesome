@@ -36,7 +36,7 @@ local globalKeys =
   ),
   awful.key(
     {modkey},
-    'r',
+    'space',
     function()
       _G.screen.primary.left_panel:toggle(true)
     end,
