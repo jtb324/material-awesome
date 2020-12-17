@@ -201,7 +201,7 @@ local globalKeys =
   ),
   awful.key(
     {modkey},
-    'space',
+    'n',
     function()
       awful.layout.inc(1)
     end,
