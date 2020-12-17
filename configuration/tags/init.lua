@@ -17,15 +17,21 @@ local tags = {
     screen = 1
   },
   {
-    icon = icons.social,
-    type = 'social',
-    defaultApp = apps.default.social,
+    icon = icons.code,
+    type = 'code',
+    defaultApp = apps.default.code,
     screen = 1
   },
   {
-    icon = icons.game,
-    type = 'game',
-    defaultApp = apps.default.game,
+    icon = icons.code,
+    type = 'code',
+    defaultApp = apps.default.code,
+    screen = 1
+  },
+  {
+    icon = icons.social,
+    type = 'social',
+    defaultApp = apps.default.social,
     screen = 1
   },
   {
@@ -40,12 +46,6 @@ local tags = {
     defaultApp = apps.default.music,
     screen = 1
   },
-  {
-    icon = icons.lab,
-    type = 'any',
-    defaultApp = apps.default.rofi,
-    screen = 1
-  }
 }
 
 awful.layout.layouts = {
