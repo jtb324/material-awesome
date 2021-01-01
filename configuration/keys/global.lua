@@ -64,6 +64,15 @@ local globalKeys =
     {description = 'Switch to next window', group = 'client'}
   ),
   awful.key(
+    {modkey, 'Shift'},
+    'o',
+    function()
+      awful.spawn.with_shell('poweroff')
+      awful.keygrabber.stop(_G.exit_screen_grabber)
+    end,
+    {description = 'Shutdown the computer', group = 'awesome'}
+  ),
+  awful.key(
     {altkey, 'Shift'},
     'Tab',
     function()
